@@ -1,0 +1,14 @@
+/home/tempest/Documents/Study/minesleeper/build/CMakeFiles/minesleeper.dir
+/home/tempest/Documents/Study/minesleeper/build/CMakeFiles/edit_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/CMakeFiles/rebuild_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/CMakeFiles/SDL3-shared.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/CMakeFiles/SDL3_test.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/CMakeFiles/SDL_uclibc.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/CMakeFiles/edit_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/CMakeFiles/rebuild_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_image/CMakeFiles/SDL3_image-shared.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_image/CMakeFiles/edit_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_image/CMakeFiles/rebuild_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_ttf/CMakeFiles/SDL3_ttf-shared.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_ttf/CMakeFiles/edit_cache.dir
+/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_ttf/CMakeFiles/rebuild_cache.dir

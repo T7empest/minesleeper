@@ -1,0 +1,170 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "minesleeper"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 54,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 29,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu++20 -fPIE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 3,
+					"path" : "/home/tempest/Documents/Study/minesleeper/src"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "/home/tempest/Documents/Study/minesleeper/src/engine"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/include-revision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tempest/Documents/Study/minesleeper/vendor/SDL/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tempest/Documents/Study/minesleeper/vendor/SDL_image/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/home/tempest/Documents/Study/minesleeper/vendor/SDL_ttf/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "SDL3-shared::@8139a08349bd60abf0db"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3_image-shared::@814bd7a07b6f968bb755"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3_ttf-shared::@7f1d25eaeffadc53ddb2"
+		}
+	],
+	"id" : "minesleeper::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,\"\\$$ORIGIN\"",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libSDL3_image.so.0.3.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libSDL3_ttf.so.0.3.0",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libSDL3.so.0.3.3",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "minesleeper",
+	"nameOnDisk" : "minesleeper",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/main.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

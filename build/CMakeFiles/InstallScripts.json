@@ -1,0 +1,10 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/tempest/Documents/Study/minesleeper/build/cmake_install.cmake",
+		"/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/cmake_install.cmake",
+		"/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_image/cmake_install.cmake",
+		"/home/tempest/Documents/Study/minesleeper/build/vendor/SDL_ttf/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

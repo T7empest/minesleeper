@@ -1,0 +1,10 @@
+vendor/SDL/CMakeFiles/SDL3-shared.dir/wayland-generated-protocols/xdg-shell-protocol.c.o: \
+ /home/tempest/Documents/Study/minesleeper/build/vendor/SDL/wayland-generated-protocols/xdg-shell-protocol.c \
+ /usr/include/stdc-predef.h \
+ /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/include/stdbool.h \
+ /usr/include/stdlib.h \
+ /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/include/stdint.h \
+ /usr/include/wayland-util.h /usr/include/math.h \
+ /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/include/stddef.h \
+ /usr/include/inttypes.h \
+ /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/include/stdarg.h

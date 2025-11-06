@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/minesleeper.dir/link.d CMakeFiles/minesleeper.dir/src/main.cc.o -o minesleeper  -Wl,-rpath,"\$ORIGIN" libSDL3_image.so.0.3.0 libSDL3_ttf.so.0.3.0 libSDL3.so.0.3.3
