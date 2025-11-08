@@ -28,7 +28,6 @@ add_executable(minesleeper
 
 target_include_directories(minesleeper PRIVATE
     ${CMAKE_SOURCE_DIR}/src
-    ${CMAKE_SOURCE_DIR}/src/engine
 )
 
 

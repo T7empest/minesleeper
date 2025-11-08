@@ -32,7 +32,6 @@ minesleeper: \
   /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/libgcc.a \
   /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/crtendS.o \
   /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/../../../../lib/crtn.o \
-  /usr/lib/ld-linux-aarch64.so.1 \
   /usr/lib/libharfbuzz.so.0 \
   /usr/lib/libfreetype.so.6 \
   /usr/lib/libglib-2.0.so.0 \
@@ -109,8 +108,6 @@ libSDL3.so.0.3.3:
 /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/crtendS.o:
 
 /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/../../../../lib/crtn.o:
-
-/usr/lib/ld-linux-aarch64.so.1:
 
 /usr/lib/libharfbuzz.so.0:
 

@@ -32,7 +32,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 54,
+				"line" : 53,
 				"parent" : 0
 			},
 			{
@@ -57,10 +57,6 @@
 				{
 					"backtrace" : 3,
 					"path" : "/home/tempest/Documents/Study/minesleeper/src"
-				},
-				{
-					"backtrace" : 3,
-					"path" : "/home/tempest/Documents/Study/minesleeper/src/engine"
 				},
 				{
 					"backtrace" : 2,
