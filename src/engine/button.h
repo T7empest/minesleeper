@@ -36,8 +36,8 @@ class Button : public Rectangle
     void set_is_disabled(bool new_value) { is_disabled_ = new_value; }
 
    protected:
-    virtual void handle_left_click();
-    virtual void handle_right_click();
+    virtual void handle_left_click() {}
+    virtual void handle_right_click() {}
     virtual void handle_mouse_motion(const SDL_MouseMotionEvent& e)
     {
         if (is_within_bounds((int)e.x, (int)e.y))

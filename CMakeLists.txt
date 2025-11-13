@@ -24,6 +24,7 @@ set(
 
 add_executable(minesleeper
     src/main.cc
+    src/minesleeper/cell.cc
 )
 
 target_include_directories(minesleeper PRIVATE

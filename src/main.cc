@@ -22,7 +22,7 @@ int main(int, char**)
 #endif
 
     Engine::Window game_window;
-    minesweeper_UI UI;
+    MinesleeperUI UI;
 
     SDL_Event event;
     bool should_quit{false};

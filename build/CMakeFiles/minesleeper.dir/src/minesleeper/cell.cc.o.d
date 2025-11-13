@@ -1,6 +1,7 @@
-CMakeFiles/minesleeper.dir/src/main.cc.o: \
- /home/tempest/Documents/Study/minesleeper/src/main.cc \
+CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o: \
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.cc \
  /usr/include/stdc-predef.h \
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL.h \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_stdinc.h \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_platform_defines.h \
@@ -82,10 +83,7 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_tray.h \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_version.h \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_oldnames.h \
- /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_main.h \
- /home/tempest/Documents/Study/minesleeper/vendor/SDL_image/include/SDL3_image/SDL_image.h \
- /home/tempest/Documents/Study/minesleeper/vendor/SDL_ttf/include/SDL3_ttf/SDL_ttf.h \
- /home/tempest/Documents/Study/minesleeper/src/engine/window.h \
+ /home/tempest/Documents/Study/minesleeper/src/engine/button.h \
  /home/tempest/Documents/Study/minesleeper/src/globals.h \
  /usr/include/c++/14.2.1/iostream \
  /usr/include/c++/14.2.1/bits/requires_hosted.h \
@@ -219,13 +217,4 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /usr/include/c++/14.2.1/bits/basic_ios.tcc \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
- /home/tempest/Documents/Study/minesleeper/src/minesleeper/ui.h \
- /home/tempest/Documents/Study/minesleeper/src/minesleeper/grid.h \
- /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/stl_uninitialized.h \
- /usr/include/c++/14.2.1/bits/stl_vector.h \
- /usr/include/c++/14.2.1/bits/stl_bvector.h \
- /usr/include/c++/14.2.1/bits/vector.tcc \
- /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h \
- /home/tempest/Documents/Study/minesleeper/src/engine/button.h \
  /home/tempest/Documents/Study/minesleeper/src/engine/rectangle.h

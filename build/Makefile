@@ -219,6 +219,30 @@ src/main.cc.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/minesleeper.dir/build.make CMakeFiles/minesleeper.dir/src/main.cc.s
 .PHONY : src/main.cc.s
 
+src/minesleeper/cell.o: src/minesleeper/cell.cc.o
+.PHONY : src/minesleeper/cell.o
+
+# target to build an object file
+src/minesleeper/cell.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minesleeper.dir/build.make CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o
+.PHONY : src/minesleeper/cell.cc.o
+
+src/minesleeper/cell.i: src/minesleeper/cell.cc.i
+.PHONY : src/minesleeper/cell.i
+
+# target to preprocess a source file
+src/minesleeper/cell.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minesleeper.dir/build.make CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.i
+.PHONY : src/minesleeper/cell.cc.i
+
+src/minesleeper/cell.s: src/minesleeper/cell.cc.s
+.PHONY : src/minesleeper/cell.s
+
+# target to generate assembly for a file
+src/minesleeper/cell.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/minesleeper.dir/build.make CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.s
+.PHONY : src/minesleeper/cell.cc.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -236,6 +260,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/minesleeper/cell.o"
+	@echo "... src/minesleeper/cell.i"
+	@echo "... src/minesleeper/cell.s"
 .PHONY : help
 
 

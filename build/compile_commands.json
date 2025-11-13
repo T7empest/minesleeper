@@ -6,6 +6,12 @@
   "output": "CMakeFiles/minesleeper.dir/src/main.cc.o"
 },
 {
+  "directory": "/home/tempest/Documents/Study/minesleeper/build",
+  "command": "/usr/bin/c++  -I/home/tempest/Documents/Study/minesleeper/src -I/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/include-revision -I/home/tempest/Documents/Study/minesleeper/vendor/SDL/include -I/home/tempest/Documents/Study/minesleeper/vendor/SDL_image/include -I/home/tempest/Documents/Study/minesleeper/vendor/SDL_ttf/include -std=gnu++20 -fPIE -o CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o -c /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.cc",
+  "file": "/home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.cc",
+  "output": "CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o"
+},
+{
   "directory": "/home/tempest/Documents/Study/minesleeper/build/vendor/SDL",
   "command": "/usr/bin/cc -DUSING_GENERATED_CONFIG_H -I/home/tempest/Documents/Study/minesleeper/build/vendor/SDL/include-config-/build_config -I/home/tempest/Documents/Study/minesleeper/vendor/SDL/src -I/home/tempest/Documents/Study/minesleeper/vendor/SDL/include -fPIC -fvisibility=hidden -Wall -Wundef -Wfloat-conversion -fno-strict-aliasing -Wshadow -Wno-unused-local-typedefs -Wimplicit-fallthrough -fdiagnostics-color=always -o CMakeFiles/SDL_uclibc.dir/src/libm/e_atan2.c.o -c /home/tempest/Documents/Study/minesleeper/vendor/SDL/src/libm/e_atan2.c",
   "file": "/home/tempest/Documents/Study/minesleeper/vendor/SDL/src/libm/e_atan2.c",

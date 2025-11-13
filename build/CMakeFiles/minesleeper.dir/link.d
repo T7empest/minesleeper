@@ -3,6 +3,7 @@ minesleeper: \
   /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/../../../../lib/crti.o \
   /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/crtbeginS.o \
   CMakeFiles/minesleeper.dir/src/main.cc.o \
+  CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o \
   libSDL3_image.so.0.3.0 \
   libSDL3_ttf.so.0.3.0 \
   libSDL3.so.0.3.3 \
@@ -50,6 +51,8 @@ minesleeper: \
 /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/crtbeginS.o:
 
 CMakeFiles/minesleeper.dir/src/main.cc.o:
+
+CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o:
 
 libSDL3_image.so.0.3.0:
 
