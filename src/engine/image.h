@@ -2,7 +2,7 @@
 
 #include <string>
 
-#include "SDL3/SDL.h"
+#include "SDL3_image/SDL_image.h"
 #include "globals.h"
 
 namespace Engine
@@ -32,7 +32,7 @@ class Image
 
     void render(SDL_Surface* surface)
     {
-        SDL_BlitSurfaceScaled(image_surface_, nullptr, surface, &destination,
+        SDL_BlitSurfaceScaled(image_surface_, nullptr, surface, &destination_,
                               SDL_SCALEMODE_LINEAR);
     }
 
