@@ -1,5 +1,6 @@
 #pragma once
 
+#include <cstdint>
 #include <vector>
 
 #include "SDL3/SDL_error.h"
@@ -17,6 +18,9 @@ namespace UserEvents
 
 inline const uint32_t CELL_CLEARED{SDL_RegisterEvents(1)};
 inline const uint32_t BOMB_PLACED{SDL_RegisterEvents(1)};
+
+inline const uint32_t FLAG_PLACED{SDL_RegisterEvents(1)};
+inline const uint32_t FLAG_CLEARED{SDL_RegisterEvents(1)};
 
 inline const uint32_t GAME_WON{SDL_RegisterEvents(1)};
 inline const uint32_t GAME_LOST{SDL_RegisterEvents(1)};
@@ -70,6 +74,9 @@ inline const std::string BASE_PATH{SDL_GetBasePath()};
 inline const std::string BOMB_IMAGE{BASE_PATH + "bomb.png"};
 inline const std::string FLAG_IMAGE{BASE_PATH + "flag.png"};
 inline const std::string FONT{BASE_PATH + "Roboto-Black.ttf"};
+
+inline constexpr int FLAG_COUNTER_WIDTH{100};
+inline constexpr SDL_Color FLAG_COUNTER_COLOR{80, 80, 80, 255};
 
 }  // namespace Config
 

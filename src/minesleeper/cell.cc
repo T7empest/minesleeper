@@ -14,6 +14,8 @@ MinesleeperCell::MinesleeperCell(int x, int y, int w, int h, int row, int col)
 {
     bomb_image_ =
         std::make_unique<Engine::Image>(x, y, w, h, Config::BOMB_IMAGE);
+    flag_image_ =
+        std::make_unique<Engine::Image>(x, y, w, h, Config::FLAG_IMAGE);
     text_ = std::make_unique<Engine::Text>(
         x, y, w, h, std::to_string(adjacent_bombs_),
         Config::TEXT_COLORS[adjacent_bombs_]);
@@ -31,17 +33,18 @@ void MinesleeperCell::handle_event(const SDL_Event& e)
     }
     else if (e.type == UserEvents::GAME_WON)
     {
-        if (has_bomb)
+        if (has_bomb_)
         {
+            has_flag_ = true;
             set_color(Config::BUTTON_SUCCESS_COLOR);
         }
         set_is_disabled(true);
     }
     else if (e.type == UserEvents::GAME_LOST)
     {
-        if (has_bomb)
+        if (has_bomb_)
         {
-            is_cleared = true;
+            is_cleared_ = true;
             set_color(Config::BUTTON_FAILURE_COLOR);
         }
         set_is_disabled(true);
@@ -52,12 +55,16 @@ void MinesleeperCell::handle_event(const SDL_Event& e)
 void MinesleeperCell::render(SDL_Surface* surface)
 {
     Button::render(surface);
-    if (is_cleared && has_bomb)
+    if (has_flag_)
+    {
+        flag_image_->render(surface);
+    }
+    if (is_cleared_ && has_bomb_)
     {
         bomb_image_->render(surface);
         std::cout << Config::BOMB_IMAGE.c_str() << std::endl;
     }
-    else if (is_cleared && adjacent_bombs_ > 0)
+    else if (is_cleared_ && adjacent_bombs_ > 0)
     {
         text_->render(surface);
     }
@@ -71,14 +78,17 @@ void MinesleeperCell::render(SDL_Surface* surface)
 
 void MinesleeperCell::clear_cell()
 {
-    if (is_cleared) return;
-    is_cleared = true;
+    if (is_cleared_) return;
+    is_cleared_ = true;
     set_is_disabled(true);
     set_color(Config::BUTTON_CLEARED_COLOR);
     report_event(UserEvents::CELL_CLEARED);
 }
 
-void MinesleeperCell::handle_left_click() { clear_cell(); }
+void MinesleeperCell::handle_left_click()
+{
+    if (!has_flag_) clear_cell();
+}
 
 void MinesleeperCell::report_event(uint32_t event_type)
 {
@@ -90,8 +100,8 @@ void MinesleeperCell::report_event(uint32_t event_type)
 
 bool MinesleeperCell::place_bomb()
 {
-    if (has_bomb) return false;
-    has_bomb = true;
+    if (has_bomb_) return false;
+    has_bomb_ = true;
     report_event(UserEvents::BOMB_PLACED);
     return true;
 }
@@ -119,7 +129,7 @@ void MinesleeperCell::handle_cell_cleared(const SDL_UserEvent& e)
     const auto* cell{static_cast<MinesleeperCell*>(e.data1)};
 
     // if has bomb -> nothing
-    if (cell->has_bomb) return;
+    if (cell->has_bomb_) return;
 
     // If the cell is adjacent to this cell and
     // if it had no adjacent bombs, we should
@@ -127,5 +137,31 @@ void MinesleeperCell::handle_cell_cleared(const SDL_UserEvent& e)
     if (is_adjacent(cell) && cell->adjacent_bombs_ == 0)
     {
         clear_cell();
+    }
+}
+
+void MinesleeperCell::reset()
+{
+    is_cleared_ = false;
+    has_bomb_ = false;
+    has_flag_ = false;
+    adjacent_bombs_ = 0;
+    set_is_disabled(false);
+    set_color(Config::BUTTON_COLOR);
+    text_->set_text(std::to_string(adjacent_bombs_),
+                    Config::TEXT_COLORS[adjacent_bombs_]);
+}
+
+void MinesleeperCell::handle_right_click()
+{
+    if (has_flag_)
+    {
+        report_event(UserEvents::FLAG_CLEARED);
+        has_flag_ = false;
+    }
+    else
+    {
+        report_event(UserEvents::FLAG_PLACED);
+        has_flag_ = true;
     }
 }

@@ -11,6 +11,7 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: /home/tempest/Documents/Study/mineslee
   /home/tempest/Documents/Study/minesleeper/src/globals.h \
   /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h \
   /home/tempest/Documents/Study/minesleeper/src/minesleeper/grid.h \
+  /home/tempest/Documents/Study/minesleeper/src/minesleeper/new_game_button.h \
   /home/tempest/Documents/Study/minesleeper/src/minesleeper/ui.h \
   /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL.h \
   /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_assert.h \
@@ -893,8 +894,6 @@ CMakeFiles/minesleeper.dir/src/main.cc.o:
 
 /usr/include/c++/14.2.1/bits/streambuf.tcc:
 
-/usr/include/bits/time64.h:
-
 /usr/include/bits/stdint-least.h:
 
 /usr/include/bits/posix2_lim.h:
@@ -1003,11 +1002,17 @@ libSDL3_image.so.0.3.0:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_hints.h:
 
-/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_filesystem.h:
+/usr/include/alloca.h:
 
 /usr/include/asm-generic/posix_types.h:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_asyncio.h:
+
+/usr/include/features.h:
+
+/usr/include/bits/sched.h:
+
+/usr/include/bits/types/__FILE.h:
 
 /usr/include/bits/long-double.h:
 
@@ -1086,8 +1091,6 @@ libSDL3_ttf.so.0.3.0:
 /usr/include/c++/14.2.1/cstdlib:
 
 /usr/include/c++/14.2.1/bits/stl_algobase.h:
-
-/usr/include/alloca.h:
 
 /usr/include/c++/14.2.1/bits/exception.h:
 
@@ -1183,6 +1186,8 @@ libSDL3_ttf.so.0.3.0:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_haptic.h:
 
+/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_filesystem.h:
+
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_gamepad.h:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_gpu.h:
@@ -1213,11 +1218,11 @@ libSDL3_ttf.so.0.3.0:
 
 /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
 
+/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_joystick.h:
+
 /usr/include/c++/14.2.1/cstdint:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_process.h:
-
-/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_joystick.h:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_log.h:
 
@@ -1232,6 +1237,8 @@ libSDL3_ttf.so.0.3.0:
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_metal.h:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_assert.h:
+
+/home/tempest/Documents/Study/minesleeper/src/minesleeper/new_game_button.h:
 
 /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_misc.h:
 
@@ -1281,15 +1288,11 @@ CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o:
 
 /usr/include/asm/errno.h:
 
-/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_power.h:
-
 /usr/include/bits/stdint-uintn.h:
 
-/usr/include/features.h:
+/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_power.h:
 
-/usr/include/bits/types/__FILE.h:
-
-/usr/include/bits/sched.h:
+/usr/include/bits/time64.h:
 
 /usr/include/bits/struct_rwlock.h:
 
@@ -1397,9 +1400,9 @@ CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o:
 
 /usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/bits/c++config.h:
 
-/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_close_code.h:
-
 /usr/include/c++/14.2.1/bits/stl_vector.h:
+
+/home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_close_code.h:
 
 /usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/bits/cpu_defines.h:
 
@@ -1501,9 +1504,9 @@ CMakeFiles/minesleeper.dir/src/minesleeper/cell.cc.o:
 
 /usr/include/c++/14.2.1/bits/ranges_algobase.h:
 
-/usr/include/bits/stdlib-float.h:
-
 /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h:
+
+/usr/include/bits/stdlib-float.h:
 
 /usr/include/c++/14.2.1/bits/ranges_base.h:
 

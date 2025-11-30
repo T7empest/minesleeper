@@ -1,8 +1,8 @@
 #pragma once
 #include <SDL3/SDL.h>
 
+#include "SDL3/SDL.h"
 #include "SDL3/SDL_events.h"
-#include "SDL3/SDL_surface.h"
 #include "engine/button.h"
 #include "engine/text.h"
 #include "globals.h"
@@ -26,7 +26,7 @@ class NewGameButton : public Engine::Button
     {
         SDL_Event e{};
         e.type = UserEvents::NEW_GAME;
-        SDL_PushEvent(e);
+        SDL_PushEvent(&e);
     }
 
    private:

@@ -43,6 +43,14 @@ class MinesleeperGrid
         {
             handle_cell_cleared(e.user);
         }
+        else if (e.type == UserEvents::NEW_GAME)
+        {
+            for (auto& child : children_)
+            {
+                child.reset();
+            }
+            place_bombs();
+        }
         for (auto& child : children_)
         {
             child.handle_event(e);

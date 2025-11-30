@@ -19,11 +19,12 @@ class MinesleeperCell : public Engine::Button
     void render(SDL_Surface* surface) override;
 
     bool place_bomb();
+    void reset();
 
     [[nodiscard]]
     bool get_has_bomb() const
     {
-        return has_bomb;
+        return has_bomb_;
     }
 
     [[nodiscard]]
@@ -40,6 +41,7 @@ class MinesleeperCell : public Engine::Button
 
    protected:
     void handle_left_click() override;
+    void handle_right_click() override;
 
    private:
     void handle_bomb_placed(const SDL_UserEvent& e);
@@ -48,11 +50,14 @@ class MinesleeperCell : public Engine::Button
     void report_event(uint32_t event_type);
     void clear_cell();
 
-    bool is_cleared{false};
-    bool has_bomb{false};
+    bool is_cleared_{false};
+    bool has_bomb_{false};
+    bool has_flag_{false};
     int row_;
     int col_;
     int adjacent_bombs_{0};
+
+    std::unique_ptr<Engine::Image> flag_image_;
     std::unique_ptr<Engine::Image> bomb_image_;
     std::unique_ptr<Engine::Text> text_;
 };

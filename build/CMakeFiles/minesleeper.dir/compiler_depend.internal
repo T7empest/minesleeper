@@ -12,6 +12,7 @@ CMakeFiles/minesleeper.dir/src/main.cc.o
  /home/tempest/Documents/Study/minesleeper/src/globals.h
  /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h
  /home/tempest/Documents/Study/minesleeper/src/minesleeper/grid.h
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/new_game_button.h
  /home/tempest/Documents/Study/minesleeper/src/minesleeper/ui.h
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL.h
  /home/tempest/Documents/Study/minesleeper/vendor/SDL/include/SDL3/SDL_assert.h

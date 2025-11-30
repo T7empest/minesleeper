@@ -87,12 +87,13 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /home/tempest/Documents/Study/minesleeper/vendor/SDL_ttf/include/SDL3_ttf/SDL_ttf.h \
  /home/tempest/Documents/Study/minesleeper/src/engine/window.h \
  /home/tempest/Documents/Study/minesleeper/src/globals.h \
- /usr/include/c++/14.2.1/vector \
- /usr/include/c++/14.2.1/bits/requires_hosted.h \
+ /usr/include/c++/14.2.1/cstdint \
  /usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/bits/c++config.h \
  /usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/bits/os_defines.h \
  /usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/bits/cpu_defines.h \
  /usr/include/c++/14.2.1/pstl/pstl_config.h \
+ /usr/include/c++/14.2.1/vector \
+ /usr/include/c++/14.2.1/bits/requires_hosted.h \
  /usr/include/c++/14.2.1/bits/stl_algobase.h \
  /usr/include/c++/14.2.1/bits/functexcept.h \
  /usr/include/c++/14.2.1/bits/exception_defines.h \
@@ -225,8 +226,7 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /usr/include/c++/14.2.1/bits/ostream.tcc /usr/include/c++/14.2.1/istream \
  /usr/include/c++/14.2.1/bits/istream.tcc \
  /home/tempest/Documents/Study/minesleeper/src/minesleeper/ui.h \
- /home/tempest/Documents/Study/minesleeper/src/minesleeper/grid.h \
- /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h \
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/flag_counter.h \
  /usr/include/c++/14.2.1/memory \
  /usr/include/c++/14.2.1/bits/stl_tempbuf.h \
  /usr/include/c++/14.2.1/bits/stl_raw_storage_iter.h \
@@ -241,7 +241,7 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /usr/include/c++/14.2.1/bits/atomic_base.h \
  /usr/include/c++/14.2.1/bits/atomic_lockfree_defines.h \
  /usr/include/c++/14.2.1/bits/atomic_wait.h \
- /usr/include/c++/14.2.1/cstdint /usr/include/c++/14.2.1/climits \
+ /usr/include/c++/14.2.1/climits \
  /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/include/limits.h \
  /usr/lib/gcc/aarch64-unknown-linux-gnu/14.2.1/include/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
@@ -260,10 +260,12 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /usr/include/c++/14.2.1/bits/ranges_algobase.h \
  /usr/include/c++/14.2.1/pstl/glue_memory_defs.h \
  /usr/include/c++/14.2.1/pstl/execution_defs.h \
- /home/tempest/Documents/Study/minesleeper/src/engine/button.h \
- /home/tempest/Documents/Study/minesleeper/src/engine/rectangle.h \
  /home/tempest/Documents/Study/minesleeper/src/engine/image.h \
+ /home/tempest/Documents/Study/minesleeper/src/engine/rectangle.h \
  /home/tempest/Documents/Study/minesleeper/src/engine/text.h \
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/grid.h \
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/cell.h \
+ /home/tempest/Documents/Study/minesleeper/src/engine/button.h \
  /home/tempest/Documents/Study/minesleeper/src/engine/random.h \
  /usr/include/c++/14.2.1/random /usr/include/c++/14.2.1/cmath \
  /usr/include/math.h /usr/include/bits/math-vector.h \
@@ -290,4 +292,5 @@ CMakeFiles/minesleeper.dir/src/main.cc.o: \
  /usr/include/c++/14.2.1/aarch64-unknown-linux-gnu/bits/opt_random.h \
  /usr/include/c++/14.2.1/bits/random.tcc /usr/include/c++/14.2.1/numeric \
  /usr/include/c++/14.2.1/bits/stl_numeric.h \
- /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h
+ /usr/include/c++/14.2.1/pstl/glue_numeric_defs.h \
+ /home/tempest/Documents/Study/minesleeper/src/minesleeper/new_game_button.h
